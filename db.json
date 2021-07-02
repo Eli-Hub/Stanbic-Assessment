@@ -1,0 +1,44 @@
+{
+    "users": [{
+            "id": 1,
+            "email": "kofi@gmail.com",
+            "role": "admin",
+            "password": "1234"
+        },
+        {
+            "id": 2,
+            "email": "abi@gmail.com",
+            "role": "admin",
+            "password": "0000"
+        },
+        {
+            "id": 3,
+            "email": "john@gmail.com",
+            "role": "user",
+            "password": "5555"
+        }
+    ],
+
+    "comments": [{
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+    }],
+
+    "profile": [{
+            "user-id": 1,
+            "name": "Kofi Annan",
+            "DoB": "24/02/1996"
+        },
+        {
+            "user-id": 2,
+            "name": "Kofi Annan",
+            "DoB": "03/02/1999"
+        },
+        {
+            "user-id": 3,
+            "name": "Kofi Annan",
+            "DoB": "20/12/1995"
+        }
+    ]
+}
